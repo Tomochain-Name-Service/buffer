@@ -1,5 +1,5 @@
 {
-  "name": "@ensdomains/buffer",
+  "name": "@tomochain-name-service/buffer",
   "version": "0.1.1",
   "requires": true,
   "lockfileVersion": 1,
@@ -23,7 +23,7 @@
     "lint": "npx hardhat check",
     "build": "npx hardhat compile",
     "prepublishOnly": "yarn build",
-    "pub": "yarn publish --access public"
+    "pub": "npm publish --access public"
   },
   "dependencies": {}
 }
